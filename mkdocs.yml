@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: Frappe Technical Docs
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - 'Introduction to the docs': 'index.md'
+  - 'Introduction to Frappe':
+      - 'What is Frappe?': introduction-to-frappe/what-is-frappe.md
