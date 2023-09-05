@@ -17,6 +17,14 @@ theme:
 nav:
   - 'Introduction to the docs': 'index.md'
   - 'Introduction to Frappe':
-      - 'What is Frappe?': intro-to-frappe/what-is-frappe.md
+      - 'What is Frappe?': 'intro-to-frappe/what-is-frappe.md'
+      - 'Frappe Architecture': 'intro-to-frappe/frappe-architecture.md'
   - 'Frappe Doctypes':
       - 'what is a Doctype?': 'doctypes/intro-to-doctypes.md'
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
