@@ -18,3 +18,5 @@ nav:
   - 'Introduction to the docs': 'index.md'
   - 'Introduction to Frappe':
       - 'What is Frappe?': introduction-to-frappe/what-is-frappe.md
+  - 'Frappe Doctypes':
+      - 'what is a Doctype?': 'doctypes/introduction-to-doctypes.md'
