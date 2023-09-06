@@ -2,7 +2,6 @@
 
 Frappe follows the Model-View-Controller (MVC) architectural pattern. This pattern helps developers organize their code into distinct components responsible for specific tasks, thus promoting modularity and maintainability.
 
-<div style="text-align:center;">
 ```mermaid
 flowchart TD
     Database[(Database)] --> Model
@@ -12,7 +11,6 @@ flowchart TD
     Controller --> View
     View --> Controller
 ```
-</div>
 
 ## Model
 

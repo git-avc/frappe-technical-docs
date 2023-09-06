@@ -19,8 +19,14 @@ nav:
   - 'Introduction to Frappe':
       - 'What is Frappe?': 'intro-to-frappe/what-is-frappe.md'
       - 'Frappe Architecture': 'intro-to-frappe/frappe-architecture.md'
+      - 'Frappe Bench': 'intro-to-frappe/frappe-bench.md'
   - 'Frappe Doctypes':
       - 'what is a Doctype?': 'doctypes/intro-to-doctypes.md'
+      - 'Doctype Fields': 'doctypes/doctype-fields.md'
+  - 'Frappe Sites':
+      - 'What are frappe sites': 'sites/intro-to-sites.md'
+  - 'Frappe Apps':
+      - 'What are frappe apps': 'apps/intro-to-apps.md'
 
 markdown_extensions:
   - pymdownx.superfences:
