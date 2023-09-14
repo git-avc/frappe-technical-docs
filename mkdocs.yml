@@ -27,6 +27,9 @@ nav:
       - 'What are frappe sites': 'sites/intro-to-sites.md'
   - 'Frappe Apps':
       - 'What are frappe apps': 'apps/intro-to-apps.md'
+  - 'Frappe Security':
+      - 'Level Permissions': 'security/level_permissions.md'
+      - 'Roles': 'security/roles.md'
 
 markdown_extensions:
   - pymdownx.superfences:
