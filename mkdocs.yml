@@ -28,8 +28,11 @@ nav:
   - 'Frappe Apps':
       - 'What are frappe apps': 'apps/intro-to-apps.md'
   - 'Frappe Security':
-      - 'Level Permissions': 'security/level_permissions.md'
+      - 'Level Permissions': 'security/level-permissions.md'
       - 'Roles': 'security/roles.md'
+  - 'Frappe Logging':
+      - 'Logging Architecture': 'logging/logging-types.md'
+      - 'Logging Use Case': 'logging/use-case.md'
 
 markdown_extensions:
   - pymdownx.superfences:
