@@ -31,8 +31,9 @@ nav:
       - 'Level Permissions': 'security/level-permissions.md'
       - 'Roles': 'security/roles.md'
   - 'Frappe Logging':
-      - 'Logging Architecture': 'logging/logging-types.md'
+      - 'Logging Architecture': 'logging/Introduction-logging.md'
       - 'Logging Use Case': 'logging/use-case.md'
+      - 'Logging Types': 'logging/logging-types.md'
 
 markdown_extensions:
   - pymdownx.superfences:
